@@ -11,7 +11,7 @@ export default class MyNavigation extends React.Component{
         return(
             <div className='navigation'>
             <Box >
-                <AppBar component="nav" sx={{bgcolor:'black'}}>
+                <AppBar component="nav" sx={{bgcolor:'#aeaed0', opacity:'0.9'}}>
                     <ButtonGroup  sx={{justifyContent: 'center', py : 2 }}>
                         <NavLink to='/' ><Button sx={{background : 'linear-gradient(#B7C4CF, #343434)', color:'white'}} variant="outlined">acceuil</Button></NavLink>
                         <NavLink to='/aboutme'> <Button sx={{background : 'linear-gradient(#B7C4CF, #343434)', color:'white'}} variant="outlined">aboutme</Button></NavLink>

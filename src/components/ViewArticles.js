@@ -24,11 +24,11 @@ const ViewArticles = () => {
             color = {true}
             navlinkstr =  "/articlesTPLM"/>
 
-            <PreviewBox title =  "Test"
+            {/* <PreviewBox title =  "Test"
             resume =  "Projet descSalutription"
             image = "../../assets/icon.png"
             color = {false}
-            navlinkstr =  "/test"/>
+            navlinkstr =  "/test"/> */}
 
         </div>
     );
