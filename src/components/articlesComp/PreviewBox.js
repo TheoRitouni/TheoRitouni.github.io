@@ -6,7 +6,7 @@ export default class PreviewBox extends React.Component{
 
     render(){
 
-        const customSX = this.props.color ? { color: 'white', background: '#aeaed0', py : 12 } 
+        const customSX = this.props.color ? { color: 'white', background: '#4f4f4f', py : 12 } 
                         : { color: 'black', bgcolor: 'white', py : 12 };
 
         return( 

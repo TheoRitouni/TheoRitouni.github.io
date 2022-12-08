@@ -8,10 +8,10 @@ const ResumeMe = () => {
                  bgcolor: 'white',
                  textAlign : 'center',
                  py : 40 , fontSize: 24 }}>
-                    Bonjour et bienvenue sur mon blog.
+                    Bonjour et bienvenue sur mon portfolio.
                     Je me présente Ritouni Théo 
                     <br/>
-                    étudiant en dernière année à <a href="https://www.isart.fr/">Isart Digital</a>
+                    étudiant en dernière année de game programming à <a href="https://www.isart.fr/">Isart Digital</a>
             </Box>
         </div>
     );

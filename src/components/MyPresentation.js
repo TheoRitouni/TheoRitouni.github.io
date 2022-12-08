@@ -9,7 +9,7 @@ export default class MyPresentation extends React.Component{
             <div>
                 <Box sx={{py:15}}>
                     <Grid sx={{justifyContent : 'center'}}container direction="row">
-                        <Grid item sx={{ width: 600,height: 400, textAlign:'center'}}>
+                        <Grid item sx={{ width: 600,height: 350, textAlign:'center'}}>
                             <Box component="img" src={"../../assets/theo.png"} 
                             sx={{ width: 400,height: 400, borderRadius: 50, border :2}}/>
                             
