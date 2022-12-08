@@ -19,7 +19,7 @@ export default class MyNavigation extends React.Component{
                         </Typography>
                         
                         <NavLink to='/' >
-                            <Button color="inherit" sx = {{ color: '#fff' }}>acceuil</Button>
+                            <Button color="inherit" sx = {{ color: '#fff' }}>accueil</Button>
                         </NavLink>
                         <NavLink to='/aboutme'> 
                             <Button color="inherit" sx = {{ color: '#fff' }}>aboutme</Button>
