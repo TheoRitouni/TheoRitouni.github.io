@@ -11,10 +11,9 @@ const Hero = (props) => (
           Bienvenue sur mon dev blog !  
       </SectionTitle>
       <SectionText>
-        Je m'apelle Théo Ritouni et les jeux vidéos sont une passion pour moi qui est devenu mon métier. Et je vous propose de plongez dans mes créations.
+        Je m'appelle Théo Ritouni et les jeux vidéos sont une passion pour moi qui est devenu mon métier. Et je vous propose de plongez dans mes créations.
       </SectionText>
       <Button onClick={(e) => {
-      e.preventDefault();
       window.location.href='http://isart.fr';
       }}>About my school</Button>
     </LeftSection>

@@ -7,7 +7,7 @@ export const projects = [
       image: '/images/Pfe.png',
       tags: ['Unreal Engine', 'C++', 'Visual Scripting'],
     source: 'https://github.com/Zenkyns',
-    visit: 'https://github.com/Zenkyns',
+    visit: 'https://www.youtube.com/watch?v=p8tsGhE0mg0&ab_channel=theoritouni',
     id: 0,
   },
   {
