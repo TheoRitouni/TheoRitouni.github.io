@@ -1,4 +1,3 @@
-import React from 'react';
 import { BsController } from "react-icons/bs";
 import { AiOutlineCodeSandbox } from "react-icons/ai";
 import { DiCode } from 'react-icons/di';
