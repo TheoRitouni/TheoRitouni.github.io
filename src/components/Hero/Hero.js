@@ -1,21 +1,17 @@
 import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-          Bienvenue sur mon dev blog !  
+      Welcome to my dev blog !  
       </SectionTitle>
-      <SectionText>
-        Je m'appelle Théo Ritouni et les jeux vidéos sont une passion pour moi qui est devenu mon métier. Et je vous propose de plongez dans mes créations.
+      <SectionText><br/>
+      I'm <b>Théo Ritouni</b>, and video games are more than just a passion for me, it's become my profession, my calling. I invite you to dive into the realm of my creations, where imagination comes to life, and innovation is my hallmark.
       </SectionText>
-      <Button onClick={(e) => {
-      window.location.href='http://isart.fr';
-      }}>About my school</Button>
     </LeftSection>
   </Section>
 );

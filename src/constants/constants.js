@@ -1,20 +1,18 @@
 export const projects = [
   {
     title: 'Paleo Clash',
-    description: "Projet de fin d’études sur PC. Party Game à 4 ayant pour but de créer une expérience conviviale pour adolescent. " + 
-    "Projet où toutes les compétences acquises lors de nos années précédentes sont réunies pour créer un jeu vidéo. " +
-    "Une grande partie du projet se concentre sur la mise en place d’architecture viable et de features gameplay.",
+    description: "End-of-studies project on PC. A 4-player Party Game aimed at creating a friendly experience for adolescents." +
+    "A project where all the skills acquired during our previous years are brought together to create a video game." +
+    "A significant part of the project focuses on establishing a viable architecture and gameplay features.",
       image: '/images/Pfe.png',
       tags: ['Unreal Engine', 'C++', 'Visual Scripting'],
-    source: 'https://github.com/Zenkyns',
-    visit: 'https://www.youtube.com/watch?v=p8tsGhE0mg0&ab_channel=theoritouni',
+    source: '',
+    visit: 'https://www.youtube.com/watch?v=rn4l4m3L1FU&ab_channel=PaleoClash',
     id: 0,
   },
   {
     title: 'Tout pour le maire',
-    description: "Bienvenue sur la place de la mairie. Vous ètes deux candidat à la mairie et vous effectuer la distribution "+
-    "de vos tracts. Amenez le plus de personnes à adhérer à votre partie. Mais attention votre adversaire essayera de tous "+
-    "faire pour s'accaparer le plus de vote.",
+    description: "Welcome to the town square. You are both candidates for mayor, and you are distributing your leaflets. Bring in as many people to support your party as possible. But beware, your opponent will try everything to garner the most votes.",
       image: '/images/tplm.png',
       tags: ['C#', 'Unity', 'Gameplay'],
     source: 'https://github.com/Zenkyns/GameWeek',
@@ -23,7 +21,7 @@ export const projects = [
   },
   {
     title: 'Bwat Engine',
-    description:"Elaboration d’un moteur de jeu 3D, avec la création d’un jeu avec ce dernier.",
+    description:"Development of a 3D game engine, along with creating a game using it.",
     image: '/images/Bwat.png',
     tags: ['C++', 'Rendering'],
     source: 'https://github.com/Meisterlama/BwatEngine',
@@ -32,11 +30,11 @@ export const projects = [
   },
   {
     title: 'Physic Engine',
-    description: "Mise en pratique de la broadphase, narrowphase ainsi que la réponse des collisions physic entre des objets",
+    description: "Implementation of broadphase, narrowphase, and physical collision response between objects.",
     image: '/images/pe_demo.gif',
     tags: ['C++', 'Custom Engine', 'Physic'],
-    source: 'https://github.com/Zenkyns',
-    visit: 'https://github.com/Zenkyns',
+    source: 'https://github.com/Zenkyns/PhysicEngine',
+    visit: '',
     id: 3,
   },
 ];

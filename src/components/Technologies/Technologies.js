@@ -6,43 +6,41 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id='tech'>
+  <Section nopadding id='tech'>
     <SectionDivider/>
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText> 
-      J'ai travailler sur beaucoup de domaine du jeux vidéo allant de la création d'un moteur de jeu à la création de différents jeux.
+    I have worked on various aspects of game development, ranging from creating a game engine to developing different games.
     </SectionText>
   <List>
     <ListItem>
-      <DiCode size="3rem"/>
+      
       <ListContainer>
-        <ListTitle>Langages</ListTitle>
+        <ListTitle><DiCode size="3rem"/> Langages</ListTitle>
         <ListParagraph>
-          Experience en :<br/><br/>  
-          C++, C#, C, Python  
-
+          <br/> 
+          C++,  C#,  C,  Python  
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
-      <AiOutlineCodeSandbox size="3rem"/>
+      
       <ListContainer>
-        <ListTitle>Engine</ListTitle>
+        <ListTitle><AiOutlineCodeSandbox size="3rem"/> Engine</ListTitle>
         <ListParagraph>
-          Différents Moteur :<br/><br/> 
-          Unreal, Unity, Construct, Godot
-
+          <br/>
+          Unreal my love, Unity, Godot, <br/>
+          Custom
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
-      <BsController size="3rem"/>
+      
       <ListContainer>
-        <ListTitle>Gameplay</ListTitle>
+        <ListTitle><BsController size="3rem"/> Gameplay</ListTitle>
         <ListParagraph>
-          De nombreuses features :<br/><br/> 
-          Caméra, Déplacement, Comportement, Outils 
-
+          <br/>
+          Camera, Movement, Behavior, <br/>Tools 
         </ListParagraph>
       </ListContainer>
     </ListItem>
