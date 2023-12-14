@@ -8,22 +8,24 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span} from './Header
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom:'20;'}}>
-          <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
-        </a>
+      <Link
+        href="/"
+        style={{ display: "flex", alignItems: "center", color: 'white', }}>
+
+        <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
+
       </Link>
     </Div1>
     <Div2>
       <li>
-      <a href="#projects">
+      <Link href="#projects">
           <NavLink>Projects</NavLink>
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="#tech">
+        <Link href="#tech">
           <NavLink>Technologies</NavLink>
-        </a>
+        </Link>
       </li>
     </Div2>
     <Div3>
