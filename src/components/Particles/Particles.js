@@ -1,8 +1,29 @@
-import { useCallback, useMemo } from "react";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+import { useEffect, useMemo, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
 
-const ParticlesComponent = (props) => {
+const ParticlesComponent = () => {
+
+  const [init, setInit] = useState(false);
+
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+      // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+      // starting from v2 you can add only the features you need reducing the bundle size
+      //await loadAll(engine);
+      //await loadFull(engine);
+      await loadSlim(engine);
+      //await loadBasic(engine);
+    }).then(() => {
+      setInit(true);
+    });
+  }, []);
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
+
   const options = useMemo(() => {
     return {
       background: {
@@ -50,12 +71,8 @@ const ParticlesComponent = (props) => {
     };
   }, []);
 
-  const particlesInit = useCallback((engine) => {
-    loadSlim(engine);
-  }, []);
-
   // eslint-disable-next-line react/prop-types
-  return <Particles id={props.id} init={particlesInit} options={options} />;
+  return <Particles id="particles" init={particlesLoaded} options={options} />;
 };
 
 export default ParticlesComponent;
