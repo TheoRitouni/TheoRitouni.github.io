@@ -71,7 +71,6 @@ const ParticlesComponent = () => {
     };
   }, []);
 
-  // eslint-disable-next-line react/prop-types
   return <Particles id="particles" init={particlesLoaded} options={options} />;
 };
 
