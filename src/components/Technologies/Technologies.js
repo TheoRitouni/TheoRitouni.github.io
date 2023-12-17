@@ -28,7 +28,7 @@ const Technologies = () =>  (
         <ListTitle><AiOutlineCodeSandbox size="3rem"/> Engine</ListTitle>
         <ListParagraph>
           <br/>
-          Unreal my love, Unity, Godot, <br/>
+          Unreal, Unity, Godot, <br/>
           Custom
         </ListParagraph>
       </ListContainer>

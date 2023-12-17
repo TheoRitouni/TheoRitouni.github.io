@@ -38,10 +38,3 @@ export const projects = [
     id: 3,
   },
 ];
-
-export const TimeLineData = [
-  { year: 2018, text: 'Diplome en management du sport STAPS', },
-  { year: 2019, text: 'Changer de voie et commence une école dans la programmation de jeux vidéo', },
-  { year: 2021, text: 'Création de mon propre moteur 3D', },
-  { year: 2022, text: 'Première expèrience professionel dans la programmation', },
-];

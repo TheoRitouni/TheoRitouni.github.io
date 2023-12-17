@@ -75,3 +75,67 @@ const ParticlesComponent = () => {
 };
 
 export default ParticlesComponent;
+
+// import React, { useCallback } from "react";
+// import  Particles, { loadFull } from "@tsparticles/react";
+
+// const ParticlesComponent = () => {
+
+//   const particlesInit = useCallback(async (engine) => {
+//     await loadFull(engine);
+//   }, []);
+
+//   // and we use this to handle the load state 
+//   const particlesLoaded = (container) => {
+//          console.log(container);
+//       };
+
+//   const options = {
+//     background: {
+//               color: "#000",
+//             },
+//             fullScreen: {
+//               enable: true,
+//               zIndex: -1,
+//             },
+//             interactivity: {
+//               events: {
+//                 onClick: {
+//                   enable: true,
+//                   mode: "push",
+//                 },
+//                 onHover: {
+//                   enable: true,
+//                   mode: "repulse",
+//                 },
+//               },
+//               modes: {
+//                 push: {
+//                   quantity: 10,
+//                 },
+//                 repulse: {
+//                   distance: 100,
+//                 },
+//               },
+//             },
+//             particles: {
+//               links: {
+//                 enable: false,
+//               },
+//               move: {
+//                 enable: true,
+//                 speed: { min: 1, max: 5 },
+//               },
+//               opacity: {
+//                 value: { min: 0.3, max: 0.7 },
+//               },
+//               size: {
+//                 value: { min: 1, max: 3 },
+//               },
+//             },
+//   };
+
+//   return <Particles options={options} init={particlesInit} />;
+// }
+
+// export default ParticlesComponent;
