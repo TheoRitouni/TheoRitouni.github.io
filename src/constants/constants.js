@@ -22,7 +22,7 @@ export const projects = [
   {
     title: 'Bwat Engine',
     description:"Development of a 3D game engine, along with creating a game using it.",
-    image: '/images/bwat.png',
+    image: '/images/Bwat.png',
     tags: ['C++', 'Rendering'],
     source: 'https://github.com/Meisterlama/BwatEngine',
     visit: 'https://www.youtube.com/watch?v=uHp00z7nB2c',
